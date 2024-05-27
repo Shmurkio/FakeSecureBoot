@@ -11,4 +11,4 @@ Only works for AMI UEFI (should be compatible with AMI BIOS too if you add the F
 
 [Tutorial](https://www.youtube.com/watch?v=FDSA2NzzQIA)
 
-Built with [EDK2](github.com/tianocore/edk2). .FFS built with [GenMod](https://github.com/pbatard/ffs).
+Built with [EDK2](github.com/tianocore/edk2). .FFS created with [GenMod](https://github.com/pbatard/ffs).
