@@ -9,4 +9,4 @@ Alternatively the compiled FakeSecureBoot.ffs can be added to the BIOS so it loa
 
 Only works for AMI UEFI.
 
-[![Tutorial](https://www.youtube.com/watch?v=FDSA2NzzQIA)
+[Tutorial](https://www.youtube.com/watch?v=FDSA2NzzQIA)
