@@ -1,5 +1,5 @@
 # FakeSecureBoot
-UEFI DXE driver to fake Secure Boot
+UEFI DXE driver to fake Secure Boot.
 
 Hooks the gRT->GetVariable function to always return enabled if Secure Boot state is queried.
 
