@@ -1,0 +1,25 @@
+[Defines]
+    INF_VERSION = 0x00010005
+    BASE_NAME = FakeSecureBoot
+    FILE_GUID = 4508124B-B41D-4E49-B6B1-7D3A1F22AFE6
+    MODULE_TYPE = UEFI_DRIVER
+    VERSION_STRING = 1.0
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    Main.cpp
+    FakeSecureBoot.h
+    FakeSecureBoot.cpp
+
+[Packages]
+    MdePkg/MdePkg.dec
+
+[LibraryClasses]
+    UefiLib
+    BaseMemoryLib
+    UefiDriverEntryPoint
+    UefiBootServicesTableLib
+    UefiRuntimeServicesTableLib
+    
+[Guids]
+    gEfiGlobalVariableGuid
