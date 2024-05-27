@@ -1,0 +1,25 @@
+[Defines]
+    INF_VERSION = 0x00010005
+    BASE_NAME = CheckSecureBoot
+    FILE_GUID = 78F4B153-C933-4B30-B006-7C3231BB58D3
+    MODULE_TYPE = UEFI_APPLICATION
+    VERSION_STRING = 1.0
+    ENTRY_POINT = UefiMain
+
+[Sources]
+    Main.cpp
+    CheckSecureBoot.h
+    CheckSecureBoot.cpp
+
+[Packages]
+    MdePkg/MdePkg.dec
+
+[LibraryClasses]
+    UefiLib
+    BaseMemoryLib
+    UefiApplicationEntryPoint
+    UefiBootServicesTableLib
+    UefiRuntimeServicesTableLib
+    
+[Guids]
+    gEfiGlobalVariableGuid
